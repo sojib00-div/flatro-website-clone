@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.wrapper {
+  width: 78%;
+  margin: auto;
+}
+
+section {
+  padding: 70px;
+}
+
+.highlight {
+  color: rgb(43, 43, 43);
+  font-weight: bold;
+}
+
+/* header starts > */
+
+header {
+  background-color: #ecf0f1;
+  height: 521px;
+  overflow: hidden;
+}
+
+#nav-menu a {
+  color: #2ecc71;
+  font-weight: 600;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: #323f4e;
+  align-items: center;
+  padding: 28px;
+  border-top: 5px solid #2ecc71;
+  height: 36px;
+  line-height: 36px;
+}
+
+#logo {
+  float: left;
+}
+
+#nav-menu {
+  float: right;
+}
+
+ul#nav-links-ul {
+  display: flex;
+}
+
+ul#nav-links-ul li a {
+  font-size: 14px;
+  padding: 8px 20px;
+  border-right: 1px solid #2ecc71;
+  transition: 0.9s;
+}
+
+ul#nav-links-ul li:last-child > a {
+  border-right: none;
+}
+
+ul#nav-links-ul li a:hover {
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.88);
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+ul#nav-links-ul li:hover:nth-child(2) > a,
+ul#nav-links-ul li:hover:nth-child(3) > a {
+  border-radius: 0;
+}
+
+ul#nav-links-ul li a:hover:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+/*  < navbar end */
+
+/* showcase starts >*/
+
+div#showcase {
+  display: flex;
+  padding: 50px 0;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+div#showcase-bg {
+  background-color: #2ecc71;
+  height: 119vh;
+}
+
+div#showcase-left {
+  float: left;
+}
+
+div#showcase-right {
+  position: relative;
+  font-size: 17px;
+  float: right;
+  padding: 30px 38px;
+  width: 441px;
+  color: white;
+  margin: auto;
+  left: -22px;
+}
+
+div#showcase-right-text h2,
+div#showcase-right-text p {
+  font-weight: 400;
+}
+
+div#showcase-right-text p {
+  padding: 30px 0;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+div#showcase-right-img h2 {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 9px 0;
+}
+
+#apple-pic {
+  padding-right: 20px;
+}
